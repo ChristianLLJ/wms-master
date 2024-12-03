@@ -1,0 +1,315 @@
+//confirm框的黑色背景
+.el-message-box {
+  background-color:#091f2cee!important;
+  }
+  .el-table--mini, .el-table--small, .el-table__expand-icon {
+    color: #fff;
+}
+  .el-message-box__title {
+      color: #ffffff;
+  }
+  
+  .el-message-box__content {
+      color: #ffffff;
+  }
+  .el-input.is-disabled .el-input__inner {
+    border-color: red;
+    background-color: #be88887b;
+    color: #fff
+  }
+// cover some element-ui styles
+/*最外层透明*/
+.cell{
+  padding: 0;
+  color:#fff;
+}
+.el-table:not(.el-table-scrollable-x) .el-table__fixed-right{
+  height: 100% !important;
+  }
+.el-form .el-form-item{
+  margin-bottom: 15px;
+}
+.el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-input__inner:focus, .el-form-item.is-error .el-textarea__inner, .el-form-item.is-error .el-textarea__inner:focus, .el-message-box__input input.invalid, .el-message-box__input input.invalid:focus {
+  border-color: #ff0000;
+}
+.el-table  {
+  background-color: rgb(235, 233, 233);
+}
+
+.el-table .el-table__footer-wrapper tbody td.el-table__cell {
+  background-color: #061327;
+color: #ffffff;
+}
+.el-table th, td{
+  background-color: #262626;
+}
+.el-table__body .el-table__row.hover-row td{
+  background-color:#01151f!important;
+}
+
+.el-table tbody tr:hover>td {
+  background-color:#01151f!important;
+}
+.el-dialog__header {
+  text-align: center;
+}
+.el-dialog__title {
+  color: aliceblue;
+}
+.el-table .el-table__fixed {
+  height: auto !important;
+  bottom: 18px;
+  }
+  
+  .el-table .el-table__fixed-body-wrapper {
+  padding-bottom: 18px;
+  }
+// 当表格有纵向滚动条时
+
+// 当表格只有横向滚动条，没有纵向滚动条时
+.el-table--scrollable-x:not(.el-table--scrollable-y) .el-table__fixed-right{
+  right: 0 !important;
+}
+
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+.el-table__expanded-cell{
+  z-index: 100;
+  padding:0px  !important;
+}
+//日期时间选择框背景白色
+.el-picker-panel {
+  background-color: #ffffff;
+  .el-table th, td{
+    background-color: #ffffff;
+  }
+}
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+.el-pagination__total {
+  color:#fff
+}
+.el-pagination__jump  {
+  color:#fff
+}
+.el-pagination {
+  text-align: center;
+}
+.el-form-item{
+  margin-bottom: 0px;
+}
+.el-icon-finish {
+  background: url("~@/assets/images/finish.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-finish:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-save {
+  background: url("~@/assets/images/save.png") center no-repeat;
+  font-size: 14px;
+  background-size: cover;
+}
+.el-icon-save:before {
+  content: "替";
+  font-size: 14px;
+  visibility: hidden;
+}
+.el-icon-newTask {
+  background: url("~@/assets/images/newTask.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-newTask:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-leave {
+  background: url("~@/assets/images/leave.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-leave:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-preDistribution {
+  background: url("~@/assets/images/preDistribution.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-preDistribution:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-export {
+  background: url("~@/assets/images/export.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-export:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-directDistribution {
+  background: url("~@/assets/images/directDistribution.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-directDistribution:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-standardInventoryByRange {
+  background: url("~@/assets/images/standardInventoryByRange.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-standardInventoryByRange:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-dynamicInventoryByRange {
+  background: url("~@/assets/images/dynamicInventoryByRange.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-dynamicInventoryByRange:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-receive {
+  background: url("~@/assets/images/receive.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-receive:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-randomInventoryByRange {
+  background: url("~@/assets/images/randomInventoryByRange.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-randomInventoryByRange:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-freeze {
+  background: url("~@/assets/images/freeze.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-freeze:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-changeRecord {
+  background: url("~@/assets/images/changeRecord.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-changeRecord:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-movement {
+  background: url("~@/assets/images/movement.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-movement:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-addInboundBatch {
+  background: url("~@/assets/images/addInboundBatch.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-addInboundBatch:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-area {
+  background: url("~@/assets/images/area.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-area:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-location {
+  background: url("~@/assets/images/location.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-location:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-goods {
+  background: url("~@/assets/images/goods.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-goods:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-sku {
+  background: url("~@/assets/images/sku.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-sku:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-company {
+  background: url("~@/assets/images/company.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-company:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
+.el-icon-batch {
+  background: url("~@/assets/images/batch.png") center no-repeat;
+  font-size: 10px;
+  background-size: cover;
+}
+.el-icon-batch:before {
+  content: "替";
+  font-size: 10px;
+  visibility: hidden;
+}
